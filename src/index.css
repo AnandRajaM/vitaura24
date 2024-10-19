@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'fluxbox';
+    src: url('../fonts//fluxbox.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  

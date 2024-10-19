@@ -1,12 +1,12 @@
-import logo from './logo.svg';
+
 import './App.css';
+import LandingPage from './components/LandingPage';
+
 
 function App() {
   return (
-    <div className="bg-blue-100 w-full h-svh absolute">
-       <div>
-          <h1 className="text-4xl text-center text-blue-500 relative bottom-0 left-0">Hello World</h1>
-       </div>
+    <div className="App">
+      <LandingPage />
     </div>
   );
 }
